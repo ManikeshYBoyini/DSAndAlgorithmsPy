@@ -1,0 +1,10 @@
+thislist = ["apple", "banana", "cherry"]
+
+[print(x) for x in thislist]
+
+for fruit in thislist:
+    print(fruit)
+    
+
+for i in range(len(thislist)):
+        print(thislist[i])
